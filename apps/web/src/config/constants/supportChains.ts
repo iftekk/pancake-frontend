@@ -3,13 +3,6 @@ import { supportedChainId } from '@pancakeswap/farms'
 
 export const SUPPORT_ONLY_BSC = [ChainId.BSC]
 export const SUPPORT_FARMS = supportedChainId
-export const LIQUID_STAKING_SUPPORTED_CHAINS = [
-  ChainId.BSC,
-  ChainId.ETHEREUM,
-  ChainId.BSC_TESTNET,
-  ChainId.ARBITRUM_GOERLI,
-  ChainId.MONAD_TESTNET,
-]
 
 export const V3_MIGRATION_SUPPORTED_CHAINS = [ChainId.BSC, ChainId.ETHEREUM]
 export const V2_BCAKE_MIGRATION_SUPPORTED_CHAINS = [ChainId.BSC]
