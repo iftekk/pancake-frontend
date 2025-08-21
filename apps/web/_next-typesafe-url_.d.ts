@@ -69,9 +69,6 @@ declare module "@@@next-typesafe-url" {
     "/info/v3/tokens": StaticRoute;
     "/invite/[code]": StaticRoute;
     "/limit-orders": StaticRoute;
-    "/liquid-staking/[contract]": StaticRoute;
-    "/liquid-staking": StaticRoute;
-    "/liquid-staking/request-withdraw/[contract]": StaticRoute;
     "/liquidity/[tokenId]": StaticRoute;
     "/liquidity/create": StaticRoute;
     "/liquidity": StaticRoute;
@@ -99,7 +96,6 @@ declare module "@@@next-typesafe-url" {
     "/profile": StaticRoute;
     "/profile/pancake-collectibles": StaticRoute;
     "/remove/[tokenId]": StaticRoute;
-    "/simple-staking": StaticRoute;
     "/sol/wallet-test": StaticRoute;
     "/stable/[address]": StaticRoute;
     "/stable/add/[[...currency]]": StaticRoute;
